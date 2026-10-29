@@ -27,6 +27,11 @@ make run        # sistema interativo (escolha AVL ou Rubro-Negra no início)
 make test       # testes de correção (retorna código != 0 se algum falhar)
 make bench      # benchmark; também grava resultados_benchmark.csv
 ```
+## Como gerar os gráficos dos testes
+```bash
+pip install matplot lib           # instala a biblioteca necessária
+python graficos.py                # gera as imagens .png 
+```
 
 Sem `make` (por exemplo, no Windows com MinGW):
 
